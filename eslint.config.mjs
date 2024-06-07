@@ -17,6 +17,7 @@ export default [
       '@typescript-eslint/no-use-before-define': [2, { functions: false }], // https://github.com/eslint/eslint/issues/11903
       '@typescript-eslint/indent': 0,
       'prefer-const': ['error', { destructuring: 'all' }],
+      '@typescript-eslint/consistent-type-imports': [2, { fixStyle: 'inline-type-imports' }],
 
       // TODO: enable it when all problems addressed
       '@typescript-eslint/explicit-function-return-type': 0,

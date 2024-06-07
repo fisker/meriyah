@@ -1,6 +1,6 @@
 import { Token } from '../token';
 import { Chars } from '../chars';
-import { ParserState, Flags } from '../common';
+import { type ParserState, Flags } from '../common';
 import { unicodeLookup } from '../unicode';
 import { report, Errors } from '../errors';
 

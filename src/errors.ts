@@ -1,4 +1,4 @@
-import { ParserState } from './common';
+import { type ParserState } from './common';
 
 export const enum Errors {
   Unexpected,
