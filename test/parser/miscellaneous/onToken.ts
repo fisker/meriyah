@@ -89,4 +89,16 @@ describe('Miscellaneous - onToken', () => {
     });
     t.equal(onTokenCount, 1);
   });
+
+  it('Should contains JSX tokens', () => {
+    const tokens: { token: string; value: string }[] = [];
+    const text = '<foo/>';
+    parseScript(text, {
+      onToken(token, start, end) {
+        tokens.push({ token, value: text.slice(start, end) });
+      },
+      jsx: true
+    });
+    t.ok(tokens.some(({ value }) => value === '<'));
+  });
 });

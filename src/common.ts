@@ -179,10 +179,12 @@ export type OnComment =
  */
 export type OnInsertedSemicolon = void | ((pos: number) => any);
 
+export type OnTokenCallback = (token: string, start: number, end: number, loc: SourceLocation) => any;
+
 /**
  * The type of the `onToken` option.
  */
-export type OnToken = void | Token[] | ((token: string, start: number, end: number, loc: SourceLocation) => any);
+export type OnToken = void | Token[] | OnTokenCallback;
 
 /**
  * Lexical scope interface
@@ -791,7 +793,7 @@ export function pushComment(context: Context, array: any[]): any {
   };
 }
 
-export function pushToken(context: Context, array: any[]): any {
+export function pushToken(context: Context, array: any[]): OnTokenCallback {
   return function (token: string, start: number, end: number, loc: SourceLocation) {
     const tokens: any = {
       token

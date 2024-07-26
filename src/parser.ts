@@ -3,6 +3,7 @@ import { Token, KeywordDescTable } from './token';
 import * as ESTree from './estree';
 import { report, reportMessageAt, reportScopeError, Errors } from './errors';
 import { scanTemplateTail } from './lexer/template';
+import { convertTokenType } from './lexer/common';
 import { scanJSXIdentifier, scanJSXToken, scanJSXAttributeValue } from './lexer/jsx';
 import {
   Context,
@@ -45,7 +46,8 @@ import {
   createArrowHeadParsingScope,
   addVarOrBlock,
   isValidIdentifier,
-  classifyIdentifier
+  classifyIdentifier,
+  OnTokenCallback
 } from './common';
 
 /**
@@ -56,7 +58,7 @@ export function create(
   source: string,
   sourceFile: string | void,
   onComment: OnComment | void,
-  onToken: OnToken | void,
+  onToken: OnTokenCallback | void,
   onInsertedSemicolon: OnInsertedSemicolon | void
 ): ParserState {
   let token = Token.EOF;
@@ -148,6 +150,19 @@ export function create(
      * https://github.com/microsoft/TypeScript/issues/9998
      */
     setToken(value: Token) {
+      if (value !== Token.EOF && onToken) {
+        onToken(convertTokenType(value), this.tokenPos, this.index, {
+          start: {
+            line: this.linePos,
+            column: this.colPos
+          },
+          end: {
+            line: this.line,
+            column: this.column
+          }
+        });
+      }
+
       return (token = value);
     },
 
