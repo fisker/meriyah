@@ -4,14 +4,6 @@ import { Token } from '../../src/token';
 import { create } from '../../src/parser';
 import { scanSingleToken } from '../../src/lexer/scan';
 
-const vFlagSupported = (() => {
-  try {
-    return new RegExp('', 'v').flags === 'v';
-  } catch {
-    return false;
-  }
-})();
-
 describe('Lexer - Regular expressions', () => {
   const tokens: [Context, string, string, string][] = [
     // None unicode regular expression
@@ -174,38 +166,36 @@ describe('Lexer - Regular expressions', () => {
     });
   }
 
-  if (vFlagSupported) {
-    const vTokens: [Context, string, string, string][] = [
-      [Context.AllowRegExp, '/[\\u{FDD0}-\\u{FDEF}]/v', '[\\u{FDD0}-\\u{FDEF}]', 'v'],
-      [
-        Context.AllowRegExp,
-        '/[\\p{Script_Extensions=Greek}&&\\p{Letter}]/v',
-        '[\\p{Script_Extensions=Greek}&&\\p{Letter}]',
-        'v'
-      ]
-    ];
+  const vTokens: [Context, string, string, string][] = [
+    [Context.AllowRegExp, '/[\\u{FDD0}-\\u{FDEF}]/v', '[\\u{FDD0}-\\u{FDEF}]', 'v'],
+    [
+      Context.AllowRegExp,
+      '/[\\p{Script_Extensions=Greek}&&\\p{Letter}]/v',
+      '[\\p{Script_Extensions=Greek}&&\\p{Letter}]',
+      'v'
+    ]
+  ];
 
-    for (const [ctx, op, value, flags] of vTokens) {
-      it(`scans '${op}' at the end`, () => {
-        const state = create(op, '', undefined);
-        const found = scanSingleToken(state, ctx, 0);
+  for (const [ctx, op, value, flags] of vTokens) {
+    it(`scans '${op}' at the end`, () => {
+      const state = create(op, '', undefined);
+      const found = scanSingleToken(state, ctx, 0);
 
-        t.deepEqual(
-          {
-            token: found,
-            hasNext: state.index < state.source.length,
-            value: (state.tokenRegExp as any).pattern,
-            flags: (state.tokenRegExp as any).flags
-          },
-          {
-            token: Token.RegularExpression,
-            hasNext: false,
-            value,
-            flags
-          }
-        );
-      });
-    }
+      t.deepEqual(
+        {
+          token: found,
+          hasNext: state.index < state.source.length,
+          value: (state.tokenRegExp as any).pattern,
+          flags: (state.tokenRegExp as any).flags
+        },
+        {
+          token: Token.RegularExpression,
+          hasNext: false,
+          value,
+          flags
+        }
+      );
+    });
   }
 
   function fail(name: string, source: string, context: Context) {

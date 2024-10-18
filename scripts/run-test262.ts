@@ -3,14 +3,6 @@ import * as path from 'path';
 import * as fs from 'fs';
 import run = require('test262-parser-runner');
 
-const vFlagSupported = (() => {
-  try {
-    return new RegExp('', 'v').flags === 'v';
-  } catch {
-    return false;
-  }
-})();
-
 function loadList(filename: string) {
   const file = path.join(__dirname, '../test/test262-parser-tests', filename);
   return fs.existsSync(file)
@@ -22,9 +14,6 @@ function loadList(filename: string) {
 }
 
 const unsupportedFeatures = new Set(loadList('unsupported-features.txt'));
-if (!vFlagSupported) {
-  unsupportedFeatures.add('regexp-v-flag');
-}
 const whitelist = loadList('whitelist.txt');
 // Ignore regexp tests like Babel
 // https://github.com/babel/babel/blob/d65873827b00e4a0a3ed8fe59000cebd5d1dd82e/scripts/parser-tests/test262/index.js#L31
