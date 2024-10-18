@@ -26,6 +26,9 @@ if (!vFlagSupported) {
   unsupportedFeatures.add('regexp-v-flag');
 }
 const whitelist = loadList('whitelist.txt');
+// Ignore regexp tests like Babel
+// https://github.com/babel/babel/blob/d65873827b00e4a0a3ed8fe59000cebd5d1dd82e/scripts/parser-tests/test262/index.js#L31
+const ignoredTests = ['built-ins/RegExp/', 'language/literals/regexp/'];
 
 function parse(src: string, { sourceType }: { sourceType: 'module' | 'script' }) {
   return (sourceType === 'module' ? parseModule : parseScript)(src, { webcompat: true, lexical: true, next: true });
@@ -40,7 +43,9 @@ type Test = {
 };
 
 function shouldSkip(test: Test) {
-  if (test.file.endsWith('.md')) {
+  // strip `test/`
+  const file = test.file.slice(5).replace(/\\/g, '/');
+  if (file.endsWith('.md') || ignoredTests.some((start) => file.startsWith(start))) {
     return true;
   }
 
