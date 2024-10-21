@@ -21,7 +21,7 @@ jobs:
       - name: Get latest test262 commit hash
         id: test262
         run: |
-          echo "hash=$(git ls-remote --exit-code git@github.com:tc39/test262.git HEAD | cut -f1)" >> $GITHUB_OUTPUT
+          echo "hash=$(git ls-remote --exit-code https://github.com/tc39/test262.git HEAD | cut -f1)" >> $GITHUB_OUTPUT
       - run: |
           npm install --save-dev test262@github:tc39/test262#${{ steps.test262.outputs.hash }}
       - run: npm run generate-test262-whitelist
