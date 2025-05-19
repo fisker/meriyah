@@ -2594,8 +2594,7 @@ yield d;
                   ]
                 }
               ],
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]
@@ -4209,8 +4208,7 @@ yield d;
                         }
                       }
                     ],
-                    async: false,
-                    expression: true
+                    async: false
                   }
                 }
               ]
@@ -4520,8 +4518,7 @@ yield d;
                   }
                 }
               ],
-              async: true,
-              expression: false
+              async: true
             }
           }
         ]
@@ -4555,8 +4552,7 @@ yield d;
                   }
                 }
               ],
-              async: true,
-              expression: false
+              async: true
             }
           }
         ]
@@ -4650,8 +4646,7 @@ yield d;
                   }
                 }
               ],
-              async: true,
-              expression: false
+              async: true
             }
           }
         ]
@@ -5154,8 +5149,7 @@ yield d;
                       }
                     }
                   ],
-                  async: false,
-                  expression: true
+                  async: false
                 }
               }
             ]
@@ -5245,8 +5239,7 @@ yield d;
                       }
                     }
                   ],
-                  async: false,
-                  expression: true
+                  async: false
                 }
               }
             ]
@@ -5339,8 +5332,7 @@ yield d;
                       }
                     }
                   ],
-                  async: false,
-                  expression: true
+                  async: false
                 }
               }
             ]
@@ -5447,8 +5439,7 @@ yield d;
                       }
                     }
                   ],
-                  async: false,
-                  expression: false
+                  async: false
                 }
               }
             ]
@@ -5480,8 +5471,7 @@ yield d;
                       name: 'yield'
                     }
                   ],
-                  async: false,
-                  expression: false
+                  async: false
                 }
               }
             ]
@@ -5932,8 +5922,7 @@ yield d;
                         }
                       }
                     ],
-                    async: false,
-                    expression: true
+                    async: false
                   }
                 }
               ]
@@ -6356,8 +6345,7 @@ yield d;
                         name: 'b'
                       }
                     ],
-                    async: false,
-                    expression: true
+                    async: false
                   }
                 }
               ]
@@ -7773,8 +7761,7 @@ yield d;
                   }
                 }
               ],
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]
@@ -8054,8 +8041,7 @@ yield d;
                   }
                 }
               ],
-              async: true,
-              expression: false
+              async: true
             }
           }
         ]
@@ -8149,8 +8135,7 @@ yield d;
                   }
                 }
               ],
-              async: true,
-              expression: false
+              async: true
             }
           }
         ]
@@ -8192,8 +8177,7 @@ yield d;
                   }
                 }
               ],
-              async: true,
-              expression: false
+              async: true
             }
           }
         ]
@@ -8370,8 +8354,7 @@ yield d;
                     name: 'foo'
                   }
                 ],
-                async: false,
-                expression: false
+                async: false
               }
             }
           }
@@ -8399,8 +8382,7 @@ yield d;
                   name: 'yield'
                 }
               ],
-              async: false,
-              expression: false
+              async: false
             }
           }
         ]
@@ -8439,8 +8421,7 @@ yield d;
                   name: 'yield'
                 }
               ],
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]
@@ -8492,8 +8473,7 @@ yield d;
                       body: []
                     },
                     params: [],
-                    async: false,
-                    expression: false
+                    async: false
                   }
                 }
               ]
@@ -10092,8 +10072,7 @@ yield d;
                       name: 'yield'
                     },
                     params: [],
-                    async: false,
-                    expression: true
+                    async: false
                   }
                 },
                 {
@@ -10113,8 +10092,7 @@ yield d;
                       ]
                     },
                     params: [],
-                    async: false,
-                    expression: false
+                    async: false
                   }
                 }
               ]
@@ -10152,8 +10130,7 @@ yield d;
                       name: 'yield'
                     },
                     params: [],
-                    async: false,
-                    expression: true
+                    async: false
                   }
                 }
               ]
@@ -10772,8 +10749,7 @@ yield d;
                         name: 'd'
                       }
                     ],
-                    async: false,
-                    expression: false
+                    async: false
                   }
                 }
               ]

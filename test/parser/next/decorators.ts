@@ -1466,8 +1466,7 @@ describe('Next - Decorators', () => {
                             ]
                           }
                         ],
-                        async: false,
-                        expression: false
+                        async: false
                       }
                     }
                   ]
@@ -1936,8 +1935,7 @@ describe('Next - Decorators', () => {
                             ]
                           }
                         ],
-                        async: false,
-                        expression: false
+                        async: false
                       }
                     }
                   ]
@@ -2033,8 +2031,7 @@ describe('Next - Decorators', () => {
                         name: 'desc'
                       }
                     ],
-                    async: false,
-                    expression: false
+                    async: false
                   }
                 }
               ]
@@ -2285,8 +2282,7 @@ describe('Next - Decorators', () => {
                             name: '_'
                           }
                         ],
-                        async: false,
-                        expression: true
+                        async: false
                       }
                     }
                   ],

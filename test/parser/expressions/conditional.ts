@@ -479,8 +479,7 @@ describe('Expressions - Conditional', () => {
                   name: 'foo'
                 }
               ],
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]

@@ -854,8 +854,7 @@ describe('Statements - For', () => {
               },
               params: [],
 
-              async: false,
-              expression: false
+              async: false
             },
             test: null,
             update: null
@@ -1067,8 +1066,7 @@ describe('Statements - For', () => {
               },
               params: [],
 
-              async: false,
-              expression: false
+              async: false
             },
             test: null,
             update: null
@@ -1132,8 +1130,7 @@ describe('Statements - For', () => {
                       },
                       params: [],
 
-                      async: false,
-                      expression: false
+                      async: false
                     },
                     {
                       type: 'FunctionExpression',

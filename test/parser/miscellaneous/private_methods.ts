@@ -2830,8 +2830,7 @@ describe('Next - Private methods', () => {
                       value: 'bar'
                     },
                     params: [],
-                    async: false,
-                    expression: true
+                    async: false
                   },
                   computed: false,
                   static: false

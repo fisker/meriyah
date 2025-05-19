@@ -280,7 +280,6 @@ describe('Next - ImportCall', () => {
                               body: [],
                               type: 'BlockStatement'
                             },
-                            expression: false,
                             params: [],
                             type: 'ArrowFunctionExpression'
                           }

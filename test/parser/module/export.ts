@@ -2361,7 +2361,6 @@ describe('Module - Export', () => {
               start: 15,
               end: 28,
               range: [15, 28],
-              expression: true,
               async: true,
               params: [],
               body: {
@@ -2396,7 +2395,6 @@ describe('Module - Export', () => {
               start: 15,
               end: 29,
               range: [15, 29],
-              expression: true,
               async: true,
               params: [
                 {
@@ -2570,7 +2568,6 @@ describe('Module - Export', () => {
               start: 15,
               end: 27,
               range: [15, 27],
-              expression: true,
               async: true,
               params: [
                 {
@@ -2613,7 +2610,6 @@ describe('Module - Export', () => {
               start: 15,
               end: 26,
               range: [15, 26],
-              expression: false,
               async: false,
               params: [
                 {
@@ -2660,8 +2656,7 @@ describe('Module - Export', () => {
                 body: []
               },
               params: [],
-              async: false,
-              expression: false
+              async: false
             }
           }
         ]
@@ -3276,7 +3271,6 @@ describe('Module - Export', () => {
                 start: 56,
                 end: 65,
                 range: [56, 65],
-                expression: false,
                 async: false,
                 params: [
                   {

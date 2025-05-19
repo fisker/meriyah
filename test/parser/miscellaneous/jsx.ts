@@ -2548,8 +2548,7 @@ describe('Miscellaneous - JSX', () => {
                     }
                   },
                   params: [],
-                  async: false,
-                  expression: true
+                  async: false
                 },
                 id: {
                   type: 'Identifier',
@@ -3684,8 +3683,7 @@ describe('Miscellaneous - JSX', () => {
                             name: 'item'
                           }
                         ],
-                        async: false,
-                        expression: true
+                        async: false
                       }
                     ]
                   }
@@ -5775,8 +5773,7 @@ describe('Miscellaneous - JSX', () => {
                                 name: 'src'
                               }
                             ],
-                            async: false,
-                            expression: true
+                            async: false
                           }
                         ]
                       }
@@ -6590,8 +6587,7 @@ describe('Miscellaneous - JSX', () => {
                       closingElement: null
                     },
                     params: [],
-                    async: false,
-                    expression: true
+                    async: false
                   }
                 }
               ],
@@ -7706,8 +7702,7 @@ describe('Miscellaneous - JSX', () => {
                           type: 'ThisExpression'
                         },
                         params: [],
-                        async: false,
-                        expression: true
+                        async: false
                       }
                     }
                   ],
@@ -7932,7 +7927,6 @@ describe('Miscellaneous - JSX', () => {
                             start: 24,
                             end: 34,
                             range: [24, 34],
-                            expression: true,
                             async: false,
                             params: [],
                             body: {
@@ -8321,8 +8315,7 @@ describe('Miscellaneous - JSX', () => {
                       name: 'x'
                     }
                   ],
-                  async: false,
-                  expression: true
+                  async: false
                 },
                 id: {
                   type: 'Identifier',
@@ -8733,8 +8726,7 @@ describe('Miscellaneous - JSX', () => {
                                     name: 'k'
                                   }
                                 ],
-                                async: false,
-                                expression: false
+                                async: false
                               },
                               kind: 'init',
                               computed: false,
@@ -9601,8 +9593,7 @@ describe('Miscellaneous - JSX', () => {
                       closingElement: null
                     },
                     params: [],
-                    async: false,
-                    expression: true
+                    async: false
                   }
                 }
               ],

@@ -414,7 +414,6 @@ describe('Expressions - Call', () => {
                 name: 'x',
                 type: 'Identifier'
               },
-              expression: true,
               params: [
                 {
                   name: 'x',
@@ -1781,8 +1780,7 @@ describe('Expressions - Call', () => {
                   name: 'a'
                 }
               ],
-              async: true,
-              expression: false
+              async: true
             }
           }
         ]

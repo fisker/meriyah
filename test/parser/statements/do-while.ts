@@ -253,7 +253,6 @@ describe('Statements - Do while', () => {
                   }
                 ],
                 async: false,
-                expression: false,
                 start: 6,
                 end: 11,
                 range: [6, 11]
@@ -330,7 +329,6 @@ describe('Statements - Do while', () => {
                   }
                 ],
                 async: false,
-                expression: false,
                 start: 12,
                 end: 17,
                 range: [12, 17]
@@ -626,7 +624,6 @@ while(y)
                 },
                 params: [],
                 async: false,
-                expression: true,
                 start: 9,
                 end: 14,
                 range: [9, 14]

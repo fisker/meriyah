@@ -383,8 +383,7 @@ describe('Expressions - Async', () => {
                 }
               ],
 
-              async: true,
-              expression: true
+              async: true
             }
           }
         ]
@@ -502,8 +501,7 @@ describe('Expressions - Async', () => {
                 }
               ],
 
-              async: true,
-              expression: true
+              async: true
             }
           }
         ]
@@ -554,7 +552,6 @@ describe('Expressions - Async', () => {
                           body: [],
                           type: 'BlockStatement'
                         },
-                        expression: false,
                         params: [],
                         type: 'ArrowFunctionExpression'
                       }
@@ -575,7 +572,6 @@ describe('Expressions - Async', () => {
                           body: [],
                           type: 'BlockStatement'
                         },
-                        expression: false,
                         params: [
                           {
                             name: 'event',
@@ -601,7 +597,6 @@ describe('Expressions - Async', () => {
                           body: [],
                           type: 'BlockStatement'
                         },
-                        expression: false,
                         params: [
                           {
                             name: 'event',
@@ -645,7 +640,6 @@ describe('Expressions - Async', () => {
                           body: [],
                           type: 'BlockStatement'
                         },
-                        expression: false,
                         params: [],
                         type: 'ArrowFunctionExpression'
                       }
@@ -666,7 +660,6 @@ describe('Expressions - Async', () => {
                           body: [],
                           type: 'BlockStatement'
                         },
-                        expression: false,
                         params: [
                           {
                             name: 'event',
@@ -725,7 +718,6 @@ describe('Expressions - Async', () => {
                           body: [],
                           type: 'BlockStatement'
                         },
-                        expression: false,
                         params: [],
                         type: 'ArrowFunctionExpression'
                       }
@@ -746,7 +738,6 @@ describe('Expressions - Async', () => {
                           body: [],
                           type: 'BlockStatement'
                         },
-                        expression: false,
                         params: [
                           {
                             name: 'event',
@@ -1149,7 +1140,6 @@ describe('Expressions - Async', () => {
                       body: [],
                       type: 'BlockStatement'
                     },
-                    expression: false,
                     params: [
                       {
                         name: 'foo',
@@ -1212,7 +1202,6 @@ describe('Expressions - Async', () => {
                     body: [],
                     type: 'BlockStatement'
                   },
-                  expression: false,
                   params: [
                     {
                       name: 'foo',
@@ -1283,8 +1272,7 @@ describe('Expressions - Async', () => {
                             name: 'foo'
                           }
                         ],
-                        async: true,
-                        expression: false
+                        async: true
                       },
                       id: {
                         type: 'Identifier',
@@ -1674,8 +1662,7 @@ describe('Expressions - Async', () => {
                   },
                   params: [],
 
-                  async: true,
-                  expression: true
+                  async: true
                 }
               ]
             }
@@ -1712,8 +1699,7 @@ describe('Expressions - Async', () => {
                     }
                   ],
 
-                  async: true,
-                  expression: true
+                  async: true
                 }
               ]
             }
@@ -1839,8 +1825,7 @@ describe('Expressions - Async', () => {
                     }
                   ],
 
-                  async: false,
-                  expression: true
+                  async: false
                 }
               ]
             }
@@ -2001,8 +1986,7 @@ describe('Expressions - Async', () => {
                 }
               ],
 
-              async: true,
-              expression: true
+              async: true
             }
           }
         ]
@@ -2599,7 +2583,6 @@ describe('Expressions - Async', () => {
                     type: 'Identifier',
                     name: 'foo'
                   },
-                  expression: true,
                   async: true
                 }
               ]
@@ -2638,8 +2621,7 @@ describe('Expressions - Async', () => {
                 }
               ],
 
-              async: true,
-              expression: true
+              async: true
             }
           }
         ]
@@ -2808,8 +2790,7 @@ describe('Expressions - Async', () => {
               },
               params: [],
 
-              async: true,
-              expression: false
+              async: true
             }
           }
         ]
@@ -2837,8 +2818,7 @@ describe('Expressions - Async', () => {
                 }
               ],
 
-              async: true,
-              expression: true
+              async: true
             }
           }
         ]
@@ -3040,8 +3020,7 @@ describe('Expressions - Async', () => {
                     },
                     params: [],
 
-                    async: true,
-                    expression: true
+                    async: true
                   }
                 },
                 {
@@ -3115,8 +3094,7 @@ describe('Expressions - Async', () => {
                   name: 'bullshit'
                 }
               ],
-              async: true,
-              expression: false
+              async: true
             }
           }
         ]

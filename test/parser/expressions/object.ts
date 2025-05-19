@@ -3207,8 +3207,7 @@ describe('Expressions - Object', () => {
                 }
               ],
 
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]
@@ -3527,8 +3526,7 @@ describe('Expressions - Object', () => {
                 }
               ],
 
-              async: false,
-              expression: false
+              async: false
             }
           }
         ]
@@ -5693,8 +5691,7 @@ describe('Expressions - Object', () => {
                 }
               ],
 
-              async: false,
-              expression: false
+              async: false
             }
           }
         ]
@@ -6084,8 +6081,7 @@ describe('Expressions - Object', () => {
                 }
               ],
 
-              async: false,
-              expression: false
+              async: false
             }
           }
         ]
@@ -6136,8 +6132,7 @@ describe('Expressions - Object', () => {
                 }
               ],
 
-              async: false,
-              expression: false
+              async: false
             }
           }
         ]
@@ -6555,8 +6550,7 @@ describe('Expressions - Object', () => {
                   }
                 ],
 
-                async: false,
-                expression: true
+                async: false
               }
             }
           }
@@ -7960,8 +7954,7 @@ describe('Expressions - Object', () => {
                 }
               ],
 
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]
@@ -18511,8 +18504,7 @@ describe('Expressions - Object', () => {
                 }
               ],
 
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]
@@ -18572,8 +18564,7 @@ describe('Expressions - Object', () => {
                   }
                 ],
 
-                async: false,
-                expression: true
+                async: false
               },
               arguments: [
                 {
@@ -18688,8 +18679,7 @@ describe('Expressions - Object', () => {
                   }
                 ],
 
-                async: false,
-                expression: true
+                async: false
               },
               arguments: [
                 {
@@ -20484,8 +20474,7 @@ describe('Expressions - Object', () => {
                 }
               ],
 
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]
@@ -21080,8 +21069,7 @@ describe('Expressions - Object', () => {
                 }
               ],
 
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]
@@ -23824,8 +23812,7 @@ describe('Expressions - Object', () => {
                 }
               ],
 
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]
@@ -24133,8 +24120,7 @@ describe('Expressions - Object', () => {
                 }
               ],
 
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]
@@ -24414,8 +24400,7 @@ describe('Expressions - Object', () => {
                 }
               ],
 
-              async: false,
-              expression: false
+              async: false
             }
           }
         ]
@@ -24466,8 +24451,7 @@ describe('Expressions - Object', () => {
                 }
               ],
 
-              async: false,
-              expression: false
+              async: false
             }
           }
         ]
@@ -24510,8 +24494,7 @@ describe('Expressions - Object', () => {
                 }
               ],
 
-              async: false,
-              expression: false
+              async: false
             }
           }
         ]
@@ -25772,8 +25755,7 @@ describe('Expressions - Object', () => {
                 }
               ],
 
-              async: false,
-              expression: false
+              async: false
             }
           }
         ]
@@ -26388,8 +26370,7 @@ describe('Expressions - Object', () => {
                 }
               ],
 
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]

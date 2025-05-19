@@ -2981,8 +2981,7 @@ describe('Expressions - Template', () => {
                     body: []
                   },
                   params: [],
-                  async: false,
-                  expression: false
+                  async: false
                 }
               ],
               quasis: [
@@ -3042,8 +3041,7 @@ describe('Expressions - Template', () => {
                     }
                   ],
 
-                  async: false,
-                  expression: false
+                  async: false
                 }
               ],
               quasis: [
@@ -4354,7 +4352,6 @@ describe('Expressions - Template', () => {
                     body: [],
                     type: 'BlockStatement'
                   },
-                  expression: false,
                   params: [],
                   type: 'ArrowFunctionExpression'
                 },

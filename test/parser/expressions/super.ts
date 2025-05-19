@@ -1676,8 +1676,7 @@ describe('Expressions - Super', () => {
                             },
                             params: [],
 
-                            async: false,
-                            expression: true
+                            async: false
                           }
                         }
                       ]
@@ -1754,8 +1753,7 @@ describe('Expressions - Super', () => {
                               }
                             ],
 
-                            async: false,
-                            expression: true
+                            async: false
                           }
                         }
                       ]
@@ -1822,12 +1820,10 @@ describe('Expressions - Super', () => {
                               },
                               params: [],
 
-                              async: false,
-                              expression: true
+                              async: false
                             },
                             params: [],
-                            async: false,
-                            expression: true
+                            async: false
                           }
                         }
                       ]
@@ -1895,8 +1891,7 @@ describe('Expressions - Super', () => {
                             },
                             params: [],
 
-                            async: false,
-                            expression: true
+                            async: false
                           }
                         }
                       ]
@@ -1964,8 +1959,7 @@ describe('Expressions - Super', () => {
                             },
                             params: [],
 
-                            async: false,
-                            expression: true
+                            async: false
                           }
                         }
                       ]
@@ -2031,8 +2025,7 @@ describe('Expressions - Super', () => {
                             },
                             params: [],
 
-                            async: false,
-                            expression: true
+                            async: false
                           }
                         }
                       ]
@@ -2111,8 +2104,7 @@ describe('Expressions - Super', () => {
                                 }
                               }
                             ],
-                            async: false,
-                            expression: true
+                            async: false
                           }
                         }
                       ]
@@ -2202,7 +2194,6 @@ describe('Expressions - Super', () => {
                             start: 42,
                             end: 60,
                             range: [42, 60],
-                            expression: true,
                             async: false,
                             params: [
                               {
@@ -2333,7 +2324,6 @@ describe('Expressions - Super', () => {
                             start: 42,
                             end: 63,
                             range: [42, 63],
-                            expression: true,
                             async: false,
                             params: [],
                             body: {
@@ -2341,7 +2331,6 @@ describe('Expressions - Super', () => {
                               start: 48,
                               end: 63,
                               range: [48, 63],
-                              expression: true,
                               async: false,
                               params: [],
                               body: {
@@ -2429,12 +2418,10 @@ describe('Expressions - Super', () => {
                               },
                               params: [],
 
-                              async: false,
-                              expression: true
+                              async: false
                             },
                             params: [],
-                            async: false,
-                            expression: true
+                            async: false
                           }
                         }
                       ]
@@ -2499,8 +2486,7 @@ describe('Expressions - Super', () => {
                             },
                             params: [],
 
-                            async: false,
-                            expression: true
+                            async: false
                           }
                         }
                       ]
@@ -2579,8 +2565,7 @@ describe('Expressions - Super', () => {
                                 }
                               }
                             ],
-                            async: false,
-                            expression: true
+                            async: false
                           }
                         }
                       ]
@@ -2656,8 +2641,7 @@ describe('Expressions - Super', () => {
                                 }
                               }
                             ],
-                            async: false,
-                            expression: true
+                            async: false
                           }
                         }
                       ]
@@ -2727,12 +2711,10 @@ describe('Expressions - Super', () => {
                               },
                               params: [],
 
-                              async: false,
-                              expression: true
+                              async: false
                             },
                             params: [],
-                            async: false,
-                            expression: true
+                            async: false
                           }
                         }
                       ]
@@ -2796,8 +2778,7 @@ describe('Expressions - Super', () => {
                               },
                               params: [],
 
-                              async: false,
-                              expression: true
+                              async: false
                             }
                           }
                         ]
@@ -2877,8 +2858,7 @@ describe('Expressions - Super', () => {
                                   }
                                 }
                               ],
-                              async: false,
-                              expression: true
+                              async: false
                             }
                           }
                         ]
@@ -2948,12 +2928,10 @@ describe('Expressions - Super', () => {
                                   }
                                 },
                                 params: [],
-                                async: false,
-                                expression: true
+                                async: false
                               },
                               params: [],
-                              async: false,
-                              expression: true
+                              async: false
                             }
                           }
                         ]
@@ -3811,7 +3789,6 @@ describe('Expressions - Super', () => {
                       type: 'CallExpression'
                     },
                     end: 39,
-                    expression: true,
                     params: [],
                     range: [24, 39],
                     start: 24,
@@ -3919,7 +3896,6 @@ describe('Expressions - Super', () => {
                       type: 'BlockStatement'
                     },
                     end: 44,
-                    expression: false,
                     params: [],
                     range: [24, 44],
                     start: 24,
@@ -4019,7 +3995,6 @@ describe('Expressions - Super', () => {
                       type: 'AwaitExpression'
                     },
                     end: 51,
-                    expression: true,
                     params: [],
                     range: [24, 51],
                     start: 24,
@@ -4133,7 +4108,6 @@ describe('Expressions - Super', () => {
                       type: 'BlockStatement'
                     },
                     end: 56,
-                    expression: false,
                     params: [],
                     range: [24, 56],
                     start: 24,

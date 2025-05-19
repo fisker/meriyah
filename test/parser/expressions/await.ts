@@ -2014,8 +2014,7 @@ describe('Expressions - Await', () => {
                   }
                 ],
 
-                async: true,
-                expression: true
+                async: true
               }
             }
           }
@@ -2441,8 +2440,7 @@ describe('Expressions - Await', () => {
                   }
                 ],
 
-                async: false,
-                expression: true
+                async: false
               }
             }
           }
@@ -2590,8 +2588,7 @@ describe('Expressions - Await', () => {
                 }
               ],
 
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]
@@ -2737,8 +2734,7 @@ describe('Expressions - Await', () => {
                       }
                     ],
 
-                    async: false,
-                    expression: true
+                    async: false
                   }
                 }
               ]
@@ -2966,8 +2962,7 @@ describe('Expressions - Await', () => {
                 }
               ],
 
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]

@@ -480,7 +480,6 @@ describe('Miscellaneous - ASI', () => {
                 ],
                 type: 'BlockStatement'
               },
-              expression: false,
               params: [],
               type: 'ArrowFunctionExpression'
             },

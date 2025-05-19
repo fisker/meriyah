@@ -2621,8 +2621,7 @@ describe('Expressions - Class', () => {
                     ]
                   }
                 ],
-                async: false,
-                expression: false
+                async: false
               }
             }
           }
@@ -3207,8 +3206,7 @@ describe('Expressions - Class', () => {
                     ]
                   }
                 ],
-                async: false,
-                expression: false
+                async: false
               }
             }
           }
@@ -3282,8 +3280,7 @@ describe('Expressions - Class', () => {
                     ]
                   }
                 ],
-                async: false,
-                expression: false
+                async: false
               }
             }
           }
@@ -3759,8 +3756,7 @@ describe('Expressions - Class', () => {
                     ]
                   }
                 ],
-                async: false,
-                expression: false
+                async: false
               }
             }
           }
@@ -3869,8 +3865,7 @@ describe('Expressions - Class', () => {
                     ]
                   }
                 ],
-                async: false,
-                expression: false
+                async: false
               }
             }
           }

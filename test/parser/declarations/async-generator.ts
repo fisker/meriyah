@@ -515,8 +515,7 @@ describe('Declarations - Async Generator', () => {
                         body: []
                       },
                       params: [],
-                      async: false,
-                      expression: false
+                      async: false
                     }
                   }
                 ]
@@ -1025,8 +1024,7 @@ describe('Declarations - Async Generator', () => {
                         },
                         params: [],
 
-                        async: false,
-                        expression: false
+                        async: false
                       }
                     }
                   ]

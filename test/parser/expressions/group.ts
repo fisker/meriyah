@@ -777,8 +777,7 @@ describe('Expressions - Group', () => {
                   ]
                 }
               ],
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]
@@ -2170,8 +2169,7 @@ describe('Expressions - Group', () => {
                   }
                 }
               ],
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]
@@ -2507,8 +2505,7 @@ describe('Expressions - Group', () => {
                   ]
                 }
               ],
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]
@@ -2738,9 +2735,7 @@ describe('Expressions - Group', () => {
                 name: 'x'
               },
               params: [],
-              async: false,
-
-              expression: true
+              async: false
             }
           }
         ]
@@ -2847,9 +2842,7 @@ describe('Expressions - Group', () => {
                   }
                 }
               ],
-              async: false,
-
-              expression: true
+              async: false
             }
           }
         ]
@@ -2895,8 +2888,7 @@ describe('Expressions - Group', () => {
                   }
                 }
               ],
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]
@@ -2926,8 +2918,7 @@ describe('Expressions - Group', () => {
                   }
                 }
               ],
-              async: true,
-              expression: true
+              async: true
             }
           }
         ]
@@ -2962,8 +2953,7 @@ describe('Expressions - Group', () => {
                   }
                 }
               ],
-              async: true,
-              expression: true
+              async: true
             }
           }
         ]
@@ -3009,8 +2999,7 @@ describe('Expressions - Group', () => {
                   }
                 }
               ],
-              async: true,
-              expression: true
+              async: true
             }
           }
         ]
@@ -3042,8 +3031,7 @@ describe('Expressions - Group', () => {
                   ]
                 }
               ],
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]
@@ -3082,8 +3070,7 @@ describe('Expressions - Group', () => {
                   }
                 }
               ],
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]
@@ -3143,8 +3130,7 @@ describe('Expressions - Group', () => {
                   ]
                 }
               ],
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]
@@ -3477,8 +3463,7 @@ describe('Expressions - Group', () => {
                   }
                 }
               ],
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]
@@ -3591,8 +3576,7 @@ describe('Expressions - Group', () => {
                   name: 'y'
                 }
               ],
-              async: true,
-              expression: true
+              async: true
             }
           }
         ]
@@ -3626,8 +3610,7 @@ describe('Expressions - Group', () => {
                   }
                 }
               ],
-              async: true,
-              expression: true
+              async: true
             }
           }
         ]
@@ -3793,8 +3776,7 @@ describe('Expressions - Group', () => {
                   name: 'yield'
                 }
               ],
-              async: true,
-              expression: true
+              async: true
             }
           }
         ]
@@ -3821,8 +3803,7 @@ describe('Expressions - Group', () => {
                   name: 'x'
                 }
               ],
-              async: true,
-              expression: true
+              async: true
             }
           }
         ]
@@ -3928,8 +3909,7 @@ describe('Expressions - Group', () => {
                   }
                 }
               ],
-              async: true,
-              expression: true
+              async: true
             }
           }
         ]
@@ -3985,8 +3965,7 @@ describe('Expressions - Group', () => {
                     name: 'foo'
                   }
                 ],
-                async: false,
-                expression: true
+                async: false
               },
               prefix: true
             }
@@ -4186,8 +4165,7 @@ describe('Expressions - Group', () => {
                   ]
                 }
               ],
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]
@@ -4317,8 +4295,7 @@ describe('Expressions - Group', () => {
                   ]
                 }
               ],
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]
@@ -4409,8 +4386,7 @@ describe('Expressions - Group', () => {
                   }
                 }
               ],
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]
@@ -4617,8 +4593,7 @@ describe('Expressions - Group', () => {
                   ]
                 }
               ],
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]
@@ -4701,8 +4676,7 @@ describe('Expressions - Group', () => {
                   }
                 }
               ],
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]
@@ -4752,8 +4726,7 @@ describe('Expressions - Group', () => {
                   }
                 }
               ],
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]
@@ -5205,8 +5178,7 @@ describe('Expressions - Group', () => {
                   }
                 }
               ],
-              async: false,
-              expression: false
+              async: false
             }
           }
         ]
@@ -5245,8 +5217,7 @@ describe('Expressions - Group', () => {
                   }
                 }
               ],
-              async: false,
-              expression: false
+              async: false
             }
           }
         ]
@@ -5289,8 +5260,7 @@ describe('Expressions - Group', () => {
                   ]
                 }
               ],
-              async: false,
-              expression: false
+              async: false
             }
           }
         ]
@@ -5322,8 +5292,7 @@ describe('Expressions - Group', () => {
                   ]
                 }
               ],
-              async: false,
-              expression: false
+              async: false
             }
           }
         ]
@@ -6401,8 +6370,7 @@ describe('Expressions - Group', () => {
                             name: 'z'
                           }
                         ],
-                        async: false,
-                        expression: true
+                        async: false
                       },
                       computed: true,
                       property: {
@@ -6502,8 +6470,7 @@ describe('Expressions - Group', () => {
                           }
                         }
                       ],
-                      async: false,
-                      expression: true
+                      async: false
                     },
                     computed: false,
                     property: {

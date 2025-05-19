@@ -477,7 +477,6 @@ describe('Next - Public fields', () => {
                     }
                   ],
                   async: false,
-                  expression: true,
                   start: 20,
                   end: 46,
                   range: [20, 46]
@@ -878,7 +877,6 @@ describe('Next - Public fields', () => {
                     },
                     params: [],
                     async: false,
-                    expression: false,
                     start: 20,
                     end: 41,
                     range: [20, 41]
@@ -1126,7 +1124,6 @@ describe('Next - Public fields', () => {
                         },
                         params: [],
                         async: false,
-                        expression: false,
                         start: 143,
                         end: 235,
                         range: [143, 235]
@@ -1286,7 +1283,6 @@ describe('Next - Public fields', () => {
                       ],
                       type: 'BlockStatement'
                     },
-                    expression: false,
                     params: [
                       {
                         name: 'a',

@@ -732,8 +732,7 @@ describe('Declarations - Function', () => {
                       }
                     ],
 
-                    async: false,
-                    expression: false
+                    async: false
                   }
                 }
               ]
@@ -832,8 +831,7 @@ describe('Declarations - Function', () => {
                   }
                 ],
 
-                async: false,
-                expression: false
+                async: false
               }
             }
           }
@@ -1933,7 +1931,6 @@ describe('Declarations - Function', () => {
                 ],
                 type: 'BlockStatement'
               },
-              expression: false,
               params: [
                 {
                   name: 'n',

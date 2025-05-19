@@ -108,8 +108,7 @@ describe('Statements - Return', () => {
                 }
               ],
 
-              async: false,
-              expression: false
+              async: false
             }
           }
         ]
@@ -146,8 +145,7 @@ describe('Statements - Return', () => {
                 }
               ],
 
-              async: false,
-              expression: false
+              async: false
             }
           }
         ]
@@ -450,8 +448,7 @@ describe('Statements - Return', () => {
               },
               params: [],
 
-              async: false,
-              expression: false
+              async: false
             }
           }
         ]

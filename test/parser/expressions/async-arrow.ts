@@ -930,7 +930,6 @@ describe('Expressions - Async arrow', () => {
                     },
                     params: [],
                     async: true,
-                    expression: false,
                     start: 11,
                     end: 35,
                     range: [11, 35]
@@ -941,7 +940,6 @@ describe('Expressions - Async arrow', () => {
                 }
               ],
               async: true,
-              expression: false,
               start: 0,
               end: 42,
               range: [0, 42]
@@ -999,7 +997,6 @@ describe('Expressions - Async arrow', () => {
                         start: 7,
                         end: 14,
                         range: [7, 14],
-                        expression: true,
                         async: false,
                         params: [],
                         body: {
@@ -1077,7 +1074,6 @@ describe('Expressions - Async arrow', () => {
                   column: 34
                 }
               },
-              expression: true,
               async: true,
               params: [
                 {
@@ -1232,7 +1228,6 @@ describe('Expressions - Async arrow', () => {
                       start: 1,
                       end: 15,
                       range: [1, 15],
-                      expression: false,
                       async: true,
                       params: [],
                       body: {
@@ -1249,7 +1244,6 @@ describe('Expressions - Async arrow', () => {
                         start: 24,
                         end: 38,
                         range: [24, 38],
-                        expression: false,
                         async: true,
                         params: [],
                         body: {
@@ -1268,7 +1262,6 @@ describe('Expressions - Async arrow', () => {
                       start: 47,
                       end: 61,
                       range: [47, 61],
-                      expression: false,
                       async: true,
                       params: [],
                       body: {
@@ -1287,7 +1280,6 @@ describe('Expressions - Async arrow', () => {
                     start: 70,
                     end: 84,
                     range: [70, 84],
-                    expression: false,
                     async: true,
                     params: [],
                     body: {
@@ -1306,7 +1298,6 @@ describe('Expressions - Async arrow', () => {
                   start: 93,
                   end: 107,
                   range: [93, 107],
-                  expression: false,
                   async: true,
                   params: [],
                   body: {
@@ -1346,9 +1337,7 @@ describe('Expressions - Async arrow', () => {
                 }
               ],
 
-              async: true,
-
-              expression: true
+              async: true
             }
           }
         ]
@@ -1386,7 +1375,6 @@ describe('Expressions - Async arrow', () => {
                 start: 5,
                 end: 17,
                 range: [5, 17],
-                expression: true,
                 async: true,
                 params: [
                   {
@@ -1455,7 +1443,6 @@ describe('Expressions - Async arrow', () => {
                     start: 15,
                     end: 26,
                     range: [15, 26],
-                    expression: false,
                     async: false,
                     params: [
                       {
@@ -1507,7 +1494,6 @@ describe('Expressions - Async arrow', () => {
                     start: 29,
                     end: 69,
                     range: [29, 69],
-                    expression: true,
                     async: false,
                     params: [
                       {
@@ -1606,7 +1592,6 @@ describe('Expressions - Async arrow', () => {
                         start: 57,
                         end: 68,
                         range: [57, 68],
-                        expression: true,
                         async: true,
                         params: [
                           {
@@ -1661,7 +1646,6 @@ describe('Expressions - Async arrow', () => {
                   start: 1,
                   end: 16,
                   range: [1, 16],
-                  expression: true,
                   async: true,
                   params: [
                     {
@@ -1719,7 +1703,6 @@ describe('Expressions - Async arrow', () => {
                   start: 1,
                   end: 13,
                   range: [1, 13],
-                  expression: true,
                   async: true,
                   params: [
                     {
@@ -1784,7 +1767,6 @@ describe('Expressions - Async arrow', () => {
                   start: 5,
                   end: 23,
                   range: [5, 23],
-                  expression: true,
                   async: true,
                   params: [
                     {
@@ -1856,7 +1838,6 @@ describe('Expressions - Async arrow', () => {
                     start: 5,
                     end: 21,
                     range: [5, 21],
-                    expression: true,
                     async: true,
                     params: [
                       {
@@ -1916,7 +1897,6 @@ describe('Expressions - Async arrow', () => {
                   start: 0,
                   end: 17,
                   range: [0, 17],
-                  expression: true,
                   async: true,
                   params: [
                     {
@@ -1947,7 +1927,6 @@ describe('Expressions - Async arrow', () => {
                   start: 19,
                   end: 30,
                   range: [19, 30],
-                  expression: true,
                   async: false,
                   params: [
                     {
@@ -1999,7 +1978,6 @@ describe('Expressions - Async arrow', () => {
               start: 1,
               end: 24,
               range: [1, 24],
-              expression: true,
               async: true,
               params: [
                 {
@@ -2080,7 +2058,6 @@ describe('Expressions - Async arrow', () => {
               start: 0,
               end: 27,
               range: [0, 27],
-              expression: true,
               async: true,
               params: [
                 {
@@ -2201,7 +2178,6 @@ describe('Expressions - Async arrow', () => {
               start: 1,
               end: 22,
               range: [1, 22],
-              expression: false,
               async: true,
               params: [
                 {
@@ -2356,9 +2332,7 @@ describe('Expressions - Async arrow', () => {
                 }
               ],
 
-              async: true,
-
-              expression: true
+              async: true
             }
           }
         ]
@@ -2396,9 +2370,7 @@ describe('Expressions - Async arrow', () => {
                       }
                     ],
 
-                    async: true,
-
-                    expression: true
+                    async: true
                   }
                 },
                 {
@@ -2421,9 +2393,7 @@ describe('Expressions - Async arrow', () => {
                       }
                     ],
 
-                    async: true,
-
-                    expression: false
+                    async: true
                   }
                 }
               ]
@@ -2456,9 +2426,7 @@ describe('Expressions - Async arrow', () => {
                   }
                 ],
 
-                async: true,
-
-                expression: false
+                async: true
               },
               arguments: []
             }
@@ -2600,9 +2568,7 @@ describe('Expressions - Async arrow', () => {
                   }
                 ],
 
-                async: false,
-
-                expression: true
+                async: false
               },
               params: [
                 {
@@ -2611,9 +2577,7 @@ describe('Expressions - Async arrow', () => {
                 }
               ],
 
-              async: true,
-
-              expression: true
+              async: true
             }
           }
         ]
@@ -2651,7 +2615,6 @@ describe('Expressions - Async arrow', () => {
                   start: 2,
                   end: 13,
                   range: [2, 13],
-                  expression: true,
                   async: true,
                   params: [],
                   body: {
@@ -2688,7 +2651,6 @@ describe('Expressions - Async arrow', () => {
               start: 0,
               end: 27,
               range: [0, 27],
-              expression: true,
               async: false,
               params: [
                 {
@@ -2704,7 +2666,6 @@ describe('Expressions - Async arrow', () => {
                 start: 5,
                 end: 27,
                 range: [5, 27],
-                expression: true,
                 async: false,
                 params: [
                   {
@@ -2720,7 +2681,6 @@ describe('Expressions - Async arrow', () => {
                   start: 10,
                   end: 27,
                   range: [10, 27],
-                  expression: true,
                   async: false,
                   params: [
                     {
@@ -2736,7 +2696,6 @@ describe('Expressions - Async arrow', () => {
                     start: 15,
                     end: 27,
                     range: [15, 27],
-                    expression: true,
                     async: true,
                     params: [
                       {
@@ -2802,7 +2761,6 @@ describe('Expressions - Async arrow', () => {
                   start: 5,
                   end: 33,
                   range: [5, 33],
-                  expression: true,
                   async: true,
                   params: [
                     {

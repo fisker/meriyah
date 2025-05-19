@@ -770,8 +770,7 @@ describe('Next - Import Meta', () => {
                 ]
               },
               params: [],
-              async: false,
-              expression: false
+              async: false
             }
           }
         ]

@@ -405,7 +405,6 @@ describe('Expressions - New target', () => {
                     start: 21,
                     end: 36,
                     range: [21, 36],
-                    expression: true,
                     async: false,
                     params: [
                       {
@@ -485,7 +484,6 @@ describe('Expressions - New target', () => {
                     start: 14,
                     end: 34,
                     range: [14, 34],
-                    expression: true,
                     async: false,
                     params: [
                       {
@@ -501,7 +499,6 @@ describe('Expressions - New target', () => {
                       start: 19,
                       end: 34,
                       range: [19, 34],
-                      expression: true,
                       async: false,
                       params: [
                         {
@@ -585,8 +582,7 @@ describe('Expressions - New target', () => {
                   name: '_'
                 }
               ],
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]

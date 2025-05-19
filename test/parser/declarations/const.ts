@@ -1315,7 +1315,6 @@ describe('Declarations - const', () => {
                           ],
                           type: 'BlockStatement'
                         },
-                        expression: false,
 
                         params: [
                           {
@@ -1476,8 +1475,7 @@ describe('Declarations - const', () => {
                               ]
                             }
                           ],
-                          async: false,
-                          expression: false
+                          async: false
                         }
                       },
                       method: false,

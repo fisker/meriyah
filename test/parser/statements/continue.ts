@@ -397,8 +397,7 @@ describe('Statements - Continue', () => {
               },
               params: [],
 
-              async: false,
-              expression: false
+              async: false
             }
           }
         ]

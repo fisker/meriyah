@@ -301,8 +301,7 @@ describe('Statements - None', () => {
                           },
                           params: [],
 
-                          async: false,
-                          expression: false
+                          async: false
                         }
                       }
                     ]

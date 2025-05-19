@@ -873,8 +873,7 @@ describe('Statements - For of', () => {
                           },
                           params: [],
 
-                          async: false,
-                          expression: false
+                          async: false
                         },
                         kind: 'init',
                         computed: false,
@@ -926,13 +925,11 @@ describe('Statements - For of', () => {
                             },
                             params: [],
 
-                            async: false,
-                            expression: true
+                            async: false
                           },
                           params: [],
 
-                          async: false,
-                          expression: true
+                          async: false
                         },
                         right: {
                           type: 'FunctionExpression',

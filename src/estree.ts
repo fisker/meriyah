@@ -289,7 +289,6 @@ export interface ArrowFunctionExpression extends _Node {
   params: Parameter[];
   body: Expression | BlockStatement;
   async: boolean;
-  expression: boolean;
 }
 
 export interface AssignmentExpression extends _Node {

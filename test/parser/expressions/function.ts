@@ -511,8 +511,7 @@ describe('Expressions - Functions', () => {
                                 },
                                 params: [],
 
-                                async: false,
-                                expression: true
+                                async: false
                               }
                             ]
                           }
@@ -4944,8 +4943,7 @@ describe('Expressions - Functions', () => {
                     ]
                   }
                 ],
-                async: false,
-                expression: false
+                async: false
               }
             }
           }
@@ -5885,8 +5883,7 @@ describe('Expressions - Functions', () => {
                         }
                       ],
 
-                      async: false,
-                      expression: true
+                      async: false
                     },
                     arguments: [
                       {
@@ -6924,8 +6921,7 @@ describe('Expressions - Functions', () => {
                 }
               ],
 
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]
@@ -6978,8 +6974,7 @@ describe('Expressions - Functions', () => {
                 }
               ],
 
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]
@@ -7023,8 +7018,7 @@ describe('Expressions - Functions', () => {
                 }
               ],
 
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]
@@ -7154,8 +7148,7 @@ describe('Expressions - Functions', () => {
                           }
                         ],
 
-                        async: false,
-                        expression: true
+                        async: false
                       }
                     ]
                   }

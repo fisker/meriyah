@@ -46,7 +46,6 @@ describe('Miscellaneous - ranges', () => {
                   },
                   params: [],
                   async: false,
-                  expression: false,
                   start: 10,
                   end: 90,
                   range: [10, 90]
@@ -1100,7 +1099,6 @@ describe('Miscellaneous - ranges', () => {
                 }
               ],
               async: false,
-              expression: true,
               start: 0,
               end: 9,
               range: [0, 9]
@@ -1503,7 +1501,6 @@ describe('Miscellaneous - ranges', () => {
                 }
               ],
               async: false,
-              expression: true,
               start: 0,
               end: 35,
               range: [0, 35]
@@ -1579,7 +1576,6 @@ describe('Miscellaneous - ranges', () => {
                 }
               ],
               async: false,
-              expression: false,
               start: 0,
               end: 22,
               range: [0, 22]
@@ -1668,7 +1664,6 @@ describe('Miscellaneous - ranges', () => {
                               }
                             ],
                             async: false,
-                            expression: true,
                             start: 13,
                             end: 30,
                             range: [13, 30]
@@ -1703,7 +1698,6 @@ describe('Miscellaneous - ranges', () => {
                 }
               ],
               async: false,
-              expression: false,
               start: 0,
               end: 53,
               range: [0, 53]
@@ -2108,7 +2102,6 @@ describe('Miscellaneous - ranges', () => {
                   }
                 ],
                 async: false,
-                expression: false,
                 start: 7,
                 end: 93,
                 range: [7, 93]
@@ -2284,7 +2277,6 @@ describe('Miscellaneous - ranges', () => {
                 }
               ],
               async: false,
-              expression: false,
               start: 11,
               end: 76,
               range: [11, 76]
@@ -4867,7 +4859,6 @@ describe('Miscellaneous - ranges', () => {
                       },
                       params: [],
                       async: false,
-                      expression: true,
                       start: 58,
                       end: 73,
                       range: [58, 73]
@@ -4978,7 +4969,6 @@ describe('Miscellaneous - ranges', () => {
                       },
                       params: [],
                       async: false,
-                      expression: true,
                       start: 28,
                       end: 43,
                       range: [28, 43]
@@ -5176,7 +5166,6 @@ describe('Miscellaneous - ranges', () => {
                   }
                 ],
                 async: false,
-                expression: false,
                 start: 7,
                 end: 93,
                 range: [7, 93]
@@ -6972,7 +6961,6 @@ describe('Miscellaneous - ranges', () => {
                 }
               ],
               async: false,
-              expression: false,
               start: 5,
               end: 12,
               range: [5, 12]
@@ -7175,7 +7163,6 @@ describe('Miscellaneous - ranges', () => {
                   }
                 ],
                 async: false,
-                expression: false,
                 start: 6,
                 end: 13,
                 range: [6, 13]
@@ -11124,7 +11111,6 @@ describe('Miscellaneous - ranges', () => {
               start: 0,
               end: 24,
               range: [0, 24],
-              expression: true,
               async: false,
               params: [
                 {
@@ -11286,7 +11272,6 @@ describe('Miscellaneous - ranges', () => {
               start: 0,
               end: 34,
               range: [0, 34],
-              expression: false,
               async: false,
               params: [
                 {
@@ -11530,7 +11515,6 @@ describe('Miscellaneous - ranges', () => {
                 start: 4,
                 end: 28,
                 range: [4, 28],
-                expression: false,
                 async: false,
                 params: [
                   {
@@ -11616,7 +11600,6 @@ describe('Miscellaneous - ranges', () => {
                 start: 4,
                 end: 83,
                 range: [4, 83],
-                expression: false,
                 async: false,
                 params: [
                   {

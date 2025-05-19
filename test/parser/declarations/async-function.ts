@@ -1281,8 +1281,7 @@ describe('Declarations - Async Function', () => {
                 }
               ],
 
-              async: true,
-              expression: true
+              async: true
             }
           }
         ]
@@ -1819,8 +1818,7 @@ describe('Declarations - Async Function', () => {
                   },
                   params: [],
 
-                  async: true,
-                  expression: true
+                  async: true
                 }
               }
             ],
@@ -2152,7 +2150,6 @@ describe('Declarations - Async Function', () => {
                     column: 111
                   }
                 },
-                expression: false,
                 async: false,
                 params: [
                   {

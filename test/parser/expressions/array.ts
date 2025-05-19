@@ -731,7 +731,6 @@ describe('Expressions - Array', () => {
                         name: 'a',
                         type: 'Identifier'
                       },
-                      expression: true,
 
                       params: [
                         {
@@ -4901,8 +4900,7 @@ describe('Expressions - Array', () => {
                 }
               ],
 
-              async: false,
-              expression: true
+              async: false
             }
           }
         ]
@@ -5155,8 +5153,7 @@ describe('Expressions - Array', () => {
                   }
                 ],
 
-                async: false,
-                expression: false
+                async: false
               }
             }
           }
@@ -7733,8 +7730,7 @@ describe('Expressions - Array', () => {
                         }
                       ],
 
-                      async: false,
-                      expression: true
+                      async: false
                     },
                     computed: false,
                     property: {
@@ -7787,8 +7783,7 @@ describe('Expressions - Array', () => {
                         }
                       ],
 
-                      async: false,
-                      expression: true
+                      async: false
                     },
                     computed: true,
                     property: {
@@ -8895,8 +8890,7 @@ describe('Expressions - Array', () => {
                   },
                   params: [],
 
-                  async: false,
-                  expression: false
+                  async: false
                 }
               ]
             }
@@ -8929,8 +8923,7 @@ describe('Expressions - Array', () => {
                     }
                   ],
 
-                  async: false,
-                  expression: false
+                  async: false
                 }
               ]
             }
